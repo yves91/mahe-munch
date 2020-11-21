@@ -1,199 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Yves Fostel Web Designs | Home</title>
 
-<title>Mahe Munch</title>
+
+<script src="C:\wamp64\www\WEB_DEV\portfolio-theme\jquery-3.5.1\jquery.min.js"></script>
 
 <link rel="stylesheet" href="style.css">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
-
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
 
 
 </head>
 
-<!--Header & menu-->
-
-<div id="main">
+<body>
 
 <header>
-	<!--div>
-		<ul class="cookiesBar">
-			<li><a class="cookiesBarText" href="#">Sign In</a></li>
-			<li><a class="cookiesBarText" href="#">Store locator</a></li>
-			<li><a class="cookiesBarText" href="#">Contact Us</a></li>
-			<li><a class="cookiesBarText" href="#">FAQ's</a></li>
-		</ul>	
-	</div-->
 	
-			
-	
-	<div class="nav">			
-	
-			
-			<div class="logo"><img src="https://yves91.github.io/mahe-munch/assets/mahe-munch-logo.png"></div>
-				<h1 class="site-logo">Mahe Munch</h1>
-				<br>
-
-	
-	
-				<label for="toggle">&#9776;</label>
-				<input type="checkbox" id="toggle">
-		<ul class="container-menu">
-				<li class="menuItems"><a href="#">Home</a></li>
-				<li class="menuItems"><a href="#">Services</a></li>
-				<li class="menuItems"><a href="#">About </a></li>
-				<li class="menuItems"><a href="#">Contact</a></li>
+		<ul class="container-menu">		
+			<div class="logo" ><img src="https://yves91.github.io/yvesfostelwebdesigns/assets/logo-1.png" id="my-logo"></div>
 		</ul>
-		
-			<div class="searchBar">
-				<li>   
-					<div>
-						<input type="text" class="searchQuery" placeholder="Search" name="search">
-						<button type="submit"><i class="fa fa-search"></i></button>
-					</div>
-				</li>
-			</div>
-		
-		
+	
+	<div class="nav">
+	
+		<li class="menuItems" >
+			<img src="https://yves91.github.io/yvesfostelwebdesigns/assets/logo-2.png" id="my-logo-mobile">
+		</li>
+
+				<label for="toggle" class="menuButton">&#9776;</label>
+				<input type="checkbox" id="toggle">
+				
+		<ul class="container-menu">
+					
+				<li class="menuItems" id="homeNav"><a href="https://yves91.github.io/yvesfostelwebdesigns/">Home</a></li>
+				<!--li class="menuItems" id="aboutNav"><a href="#">About</a></li-->
+				<li class="menuItems" id="contactNav"><a href="https://yves91.github.io/yvesfostelwebdesigns/index-contact.html">Contact</a></li>
+		</ul>
 	</div>
 </header>
 
 
-<div class="container">
-	<p id="timeGreeting"></p>
-</div>
-
-
-	<!--Jumbotron section-->
-	<section class="container" id="jumbotron">	
-
-		<div>
-			<img id="jumbotronImage" src="https://yves91.github.io/mahe-munch/assets/cake-jumbotron-1600x610.jpg">
-		<p class="jumbo-text">Delicious treats for everyone!</p></div>
-		
-	</section>
-
-	<section class="container">
-		<div>
-			<h3 class="productTitle">Bites & Treats</h3>
-			<!--hr-->
-		</div>	
-	</section>
+<!--Portfolio and About - START-->
+	<article class="container" id="mainContent">
 	
-
-
-<!--3x3 Products-->
-
-
-	<section class="container" id="products">
-			<div class ="item">
-				<img id="productImage" src="https://yves91.github.io/mahe-munch/assets/cupcakes.jpg">
-					<div class="productDescription" id="prod-des-3-row">
-						<h3>Item</h3>
-						<p class="itemDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+		<div class="box" id="portfolio">		
+			<h1>Mahe Munch</h1>
+			
+			<div class="container">
+				<div class="image">
+					<a class="portfolioLink" href="https://yves91.github.io/mahe-munch/" target="_blank"><img class="image" id="portfolioImage" src="https://yves91.github.io/yvesfostelwebdesigns/assets/mahe-munch-responsive.png">
+					<div>
+						<p class="portfolio-ref">Website - Mahe Munch</p></a>
 					</div>
-			</div>
-			
-			<div class ="item">
-				<img id="productImage" src="https://yves91.github.io/mahe-munch/assets/doughnuts-2.jpg">
-					<div class="productDescription" id="prod-des-3-row">
-						<h3>Item</h3>
-						<p class="itemDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 				</div>
-			</div>
+			</div>	
 			
-			<div class ="item">
-				<img id="productImage" src="https://yves91.github.io/mahe-munch/assets/milkshake.jpg">
-					<div class="productDescription" id="prod-des-3-row">
-						<h3>Item</h3>
-						<p class="itemDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-				</div>
-			</div>
+			<div class="container">
+				This versatile theme is geared towards websites built for both eCommerce and non-eCommerce requirements. The layout takes a diversion from common vertical designs, instead opting for a slightly horizontal tint which has no impact on ease navigate. The layout responds well on desktop, tablet and mobile viewports.  
+			</div>	
 			
-				
-	</section>
+		</div>		
 
-<!--2x2 Products-->
-<div class="main-area">
-	<section class="container" id="products">
-
-		<div class ="item">
-			<div>
-				<img id="productImage" src="https://yves91.github.io/mahe-munch/assets/doughnuts.jpg">
-			</div>
-		</div>
-
-		<div class="productDescription">
-			<p class="itemDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-		</div>
+	</article>
 	
-	</section>
-	
-<!--2x2 Products-->
-	<section class="container" id="products-2">
-
-	<div class ="item">
-			<div>
-				<img id="productImage" src="https://yves91.github.io/mahe-munch/assets/milkshake.jpg">
-			</div>
-		</div>
-		
-		<div class="productDescription">
-			<p class="itemDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-		</div>
-				
-	</section>
-	
-	
-<!--2x2 Products-->
-	<section class="container" id="products">
-
-		<div class ="item">
-			<div>
-				<img id="productImage" src="https://yves91.github.io/mahe-munch/assets/doughnuts-2.jpg">
-			</div>
-		</div>
-
-		<div class="productDescription">
-			<p class="itemDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-		</div>
-	
-	</section>
-
-</div>
-	
-	
-
-	<!--Footer-->
-	<div id="footer">	
-		
-		<h3 class="newsletter-signup">Sign up to our newsletter</h3>
-			
-			
-		<div class="searchBar">
-			<div class="sign-up-footer">
-				<input type="text" class="searchQuery" placeholder="Email address" name="search">
-				<button type="submit" id="sign-up-button"><p>Sign up</p></i></button>
-			</div>
-		</div>
-			
-			
-		<div class="theme-designer">
-			<p>Yves Fostel Web Designs 2020</p>
-		</div>
-
-	</div>
-			
+<!--Portfolio and About - END-->
 
 
+
+<footer class="container" id="ftr">	
+	<div class="container">
+		<p>Yves Fostel Web Designs 2020</p>
+	</div>		
+</footer>
+
+</body>
 
 </html>
