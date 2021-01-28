@@ -549,7 +549,7 @@ font-family: 'Crete Round', serif;
 
 
 #sign-up-button > p{
-	font-family: 'Libre Franklin', sans-serif;
+	//font-family: 'Libre Franklin', sans-serif;
 	color: #fff;
 
 }
@@ -588,11 +588,12 @@ font-family: 'Crete Round', serif;
 }
 
 #footer{
-		display: flex-end;
-		background-color: #e9e9e9;
-		font-size:15px;
-		font-weight: bold;
-		letter-spacing: 2px;
-		color: #6d6d6d;
-		margin-top: 80px;
+	display: flex-end;
+	background-color: #e9e9e9;
+	font-size:15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #6d6d6d;
+	margin-top: 80px;
+	padding: 35px;
 }
