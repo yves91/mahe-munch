@@ -310,6 +310,7 @@ li{
 	}
 }
 
+
 @media only screen and (max-width: 360px){
 	.jumbo-text{
 		margin-top: -36%;
@@ -584,6 +585,13 @@ font-family: 'Crete Round', serif;
 	display: flex;
 	justify-content: center;
 	padding: 10px;
+}
+
+@media only screen and (max-width: 525px){
+	.sign-up-footer{
+		display: flex;
+    		justify-content: center;
+	}
 }
 
 #footer{
