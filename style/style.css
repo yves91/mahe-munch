@@ -96,8 +96,8 @@ p {
 .jumbotron {
   text-align: center;
   color: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, rgba(0, 0, 0, 0)), to(#f8f8f8)), url("file:///C:/wamp64/www/WEB_DEV/mahe-munch-2022/assets/doughnuts/istockphoto-180820338-170667a.jpg");
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 55%, #f8f8f8), url("file:///C:/wamp64/www/WEB_DEV/mahe-munch-2022/assets/doughnuts/istockphoto-180820338-170667a.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, rgba(0, 0, 0, 0)), to(#f8f8f8)), url("https://yves91.github.io/mahe-munch/assets/doughnuts/doughnuts-4-612x471.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 55%, #f8f8f8), url("https://yves91.github.io/mahe-munch/assets/doughnuts/doughnuts-4-612x471.jpg");
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
