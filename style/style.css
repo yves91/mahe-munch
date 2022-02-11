@@ -284,6 +284,7 @@ img {
 
 .col-lg {
   padding-bottom: 20px;
+  contain: content;
 }
 
 .row {
